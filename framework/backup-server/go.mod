@@ -1,8 +1,6 @@
 module olares.com/backup-server
 
-go 1.23.0
-
-toolchain go1.23.7
+go 1.24.0
 
 replace (
 	k8s.io/api => k8s.io/api v0.25.6
@@ -47,8 +45,8 @@ require (
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
 	go.uber.org/zap v1.24.0
-	golang.org/x/crypto v0.37.0
-	golang.org/x/text v0.24.0
+	golang.org/x/crypto v0.45.0
+	golang.org/x/text v0.31.0
 	k8s.io/api v0.26.2
 	k8s.io/apimachinery v0.32.3
 	k8s.io/client-go v0.32.1
@@ -118,14 +116,14 @@ require (
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
-	golang.org/x/mod v0.21.0 // indirect
-	golang.org/x/net v0.38.0 // indirect
+	golang.org/x/mod v0.29.0 // indirect
+	golang.org/x/net v0.47.0 // indirect
 	golang.org/x/oauth2 v0.27.0 // indirect
-	golang.org/x/sync v0.13.0 // indirect
-	golang.org/x/sys v0.32.0 // indirect
-	golang.org/x/term v0.31.0 // indirect
+	golang.org/x/sync v0.18.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
+	golang.org/x/term v0.37.0 // indirect
 	golang.org/x/time v0.7.0 // indirect
-	golang.org/x/tools v0.26.0 // indirect
+	golang.org/x/tools v0.38.0 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.2.0 // indirect
 	google.golang.org/protobuf v1.35.1 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
